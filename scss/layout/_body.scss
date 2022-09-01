@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+}
+
+
+.colorTitulos {
+    display: flex;
+    color: rgb(189, 6, 91);
+    padding: 10px;
+    margin: 35px;
+    justify-content: center;
+    }
+
+    
+.texto {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    align-items: center;
+    font-size: 22px;
+    justify-items: center;
+    color: rgb(216, 236, 216);
+}
+
+.seccioNes {
+    padding-top: 80px;
+    padding-right: 60px;
+    
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    padding-right: 325px;
+
+}
+
+.fotosInicio{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;   
+    grid-template-rows: 100vh ;
+    align-items: center;
+    justify-items: center;
+}
+  
+.tituloNosotros{
+    margin-top: 150px;
+    color: white;
+    padding: 25px;
+    background-color: rgba(229, 57, 209, 0.376);
+    text-align: center;
+}
