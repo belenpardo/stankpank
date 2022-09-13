@@ -18,7 +18,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-   ;
+    font-family: "Lacquer";
+    
 }
 
 a{
@@ -57,4 +58,11 @@ a{
     background-color: rgba(229, 57, 209, 0.376);
     text-align: center;
     font-family: $fuentePrimaria;
+}
+.ubicacion {
+  font-family: "Lacquer";
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: 50px;
+  color: fuchsia;
 }

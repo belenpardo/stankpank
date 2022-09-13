@@ -1,9 +1,13 @@
 
 footer {
+    @include fuente;
     display: flex;
     align-self: center;
     justify-content: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 19%, rgba(2,0,36,1) 40%, rgba(9,9,121,1) 62%, rgba(244,0,255,1) 100%);
+
    
-background: rgb(0,0,0);
-background: linear-gradient(180deg, rgba(0,0,0,1) 19%, rgba(2,0,36,1) 40%, rgba(9,9,121,1) 62%, rgba(244,0,255,1) 100%);
+
 }
+
