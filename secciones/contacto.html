@@ -13,80 +13,115 @@
     </head>
 <body>
     <header>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">STANPUNK</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <img src="../img/logobarra.png" alt="Logo">
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../index.html">NOSOTROS</a>
+                    </li>
+                   
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        ESTAMPADOS
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                        <li><a class="dropdown-item" href="../secciones/serigrafia.html">Serigrafia</a></li>
+                        <li><a class="dropdown-item" href="../secciones/sublimacion.html">Sublimación</a></li>
+                        <li>
+                        <li><a class="dropdown-item" href="../secciones/impresion.html">Impresion directa</a></li>
+                          <hr class="dropdown-divider">
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../secciones/contacto.html">CONTACTO</a>
+                      </li>
+                  </ul>
+                 
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+  
+     </header>
 
-        <nav>
-    
-            <ul class="texto">
-                <li>
-                    <img src="../img/logo.png" alt="Logo">
-                </li>
-                <li class="seccioNes">
-                    <a href="../index.html">Nosotros</a>
-                </li>
-    
-                <li class="seccioNes">
-                    <a href="./serigrafia.html">Serigrafia</a>
-                </li>
-    
-                <li class="seccioNes">
-                    <a href="./sublimacion.html">Sublimacion</a>
-                </li>
-    
-                <li class="seccioNes">
-                    <a href="./impresion.html">Impresión directa</a>
-                </li>
-    
-                <li class="seccioNes">
-                    <a href="./contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-    
-    </header>
-    <form action="#" method="get">
-        <label for="Nombre"> Nombre</label>
-        <br>
-        <input type="text" name="Nombre">
-        <br>
-        <input type="number" name="Edad" placeholder="Edad">
-        <br>
-        <input type="email" name="Email" placeholder="Email" required>
-        <br>
-        <input type="password" name="clave" placeholder="clave">
-        <br>
-          <!-- botones de radio -->
-          <form>
-           <label for="sexo">Hombre</label>
-            <input type="radio" name="sexo" value="hombre" />
-            <label for="sexo">Mujer</label>
-            <input type="radio" name="sexo" value="mujer" />
-            <br>
-            <!-- tipo check -->
-            <span>Acepta terminos y condiciones</span>
-            <input type="checkbox" name="acepta" value="1">
-            <br>
-            <!-- Menu desplegable -->
-            <select name="talles">
-                <option value="S">Small</option>
-                <option value="M">Medium</option>
-                <option value="L">Large</option>
-                <option value="XL">Extra large</option>
-            </select>
-            <br>
-        <!-- Botones -->
-        <input type="submit" value="Inscribir">        
-        <input type="reset" >
-        <input type="button" value="Hace click">
+     <body>
+
+      <div class="bannerContacto">
+        <img src="../img/Banner/contactoBanner.jpg" alt="HorarioATencion" width="100%">
 
 
-       
+
         
-            
-
-
-        </form>
         
-    </form>
+
+      </div>
+ 
+      <div class="ventasMayoristas">
+        <div class="card text-center">
+          <div class="card-header" >
+            Contacto
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Ventas mayoristas</h5>
+            <p class="card-text">
+              Natalio Querido 2285
+              Munro - B1605CYC
+              Provincia de Buenos Aires
+              4756-0016 #207
+              </p>
+            <a href="#" class="btn btn-primary">Ingresar al correo</a>
+          </div>
+          <div class="card-footer text-muted">
+              ventasmayoristas@stanpunk.com.ar
+          </div>
+      </div>
+  
+      
+   
+      
+ 
+      <div class="ventasMinoristas">
+        <div class="card text-center">
+          <div class="card-header" >
+            Contacto
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Ventas minoristas</h5>
+            <p class="card-text">
+              Maximiliano Zanabria 9218
+              Mataderos- B6805CYC
+              Provincia de Buenos Aires
+              4756-5436 #234
+              </p>
+            <a href="#" class="btn btn-primary">Ingresar al correo</a>
+          </div>
+          <dv class="card-footer text-muted">
+              ventasminoristas@stanpunk.com.ar
+      </div>
+ 
+ 
+      </div>
+      
+     </body>
+
+    
+
+     
     <footer>
         <div class="grid-footer">
         <div class="titulofinal">gracias por elegirnos</div>

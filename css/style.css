@@ -14,6 +14,20 @@ body {
   margin: 35px;
   justify-content: center;
 }
+.container-fluid{
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Lacquer";
+
+}
+
+
+
+
+
 
 .texto {
   list-style: none;
@@ -52,12 +66,13 @@ a {
 }
 
 .tituloNosotros {
-  margin-top: 150px;
   color: white;
-  padding: 25px;
+  padding: 15px  ;
   background-color: rgba(229, 57, 209, 0.376);
   text-align: center;
   font-family: "Lacquer";
+  font-size: 25px ;
+
 }
 
 .ubicacion {
@@ -68,7 +83,7 @@ a {
   color: fuchsia;
 }
 
-header {
+.navbar {
   background: rgb(255, 255, 255);
   background: linear-gradient(288deg, rgba(255, 255, 255, 0) 30%, rgba(238, 10, 183, 0.7735469188) 61%, rgba(39, 167, 212, 0.8323704482) 92%, rgb(39, 212, 82) 99%);
 }
@@ -81,7 +96,7 @@ header {
   align-items: center;
   grid-template-areas: "img1 des1" "des2 img2" "img3 des3";
   width: 100%;
-  color: rgba(255, 68, 0, 0.723);
+  color: rgba(255, 255, 255, 0.723);
 }
 
 .img1 {
@@ -107,13 +122,81 @@ header {
 .des3 {
   grid-area: des3;
 }
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: #2ba743;
+  border: 1px solid #ffffff;
+  border-radius: 0.25rem;
+  transition: box-shadow .15s ease-in-out;
+}
+.offcanvas-body {
+  background-color: #111811f4;
+}
+.offcanvas-header {
+  background-color: #111811f4;
+}
+.container22 {
+  display: grid; 
+  grid-auto-flow: column; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr ; 
+  align-items: center;
+  padding-left: 7%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  grid-template-areas: 
+    "imagen1 imagen2 imagen3"
+    "imagen4 imagen5 imagen6"
+
+  
+}
+.card {
+background-color: black;}
+.imagen1 {
+ 
+  grid-area: imagen1;
+}
+.imagen2 {
+  grid-area: imagen2;
+}
+
+.imagen3 {
+  grid-area: imagen3;
+}
+
+.imagen4{
+  grid-area: imagen4;
+}
+.imagen5 {
+  grid-area: imagen5;
+}
+
+.imagen6 {
+  grid-area: imagen6;
+}
+.tamañologo {
+display: flex;
+justify-content: center;
+
+}
+
+.remera {
+  
+}
+
+
+
 
 footer {
   font-family: "Lacquer";
   text-align: center;
   padding-bottom: 5px;
   font-size: 50px;
-  color: fuchsia;
+  color:  #2ba743;
   display: flex;
   align-self: center;
   justify-content: center;

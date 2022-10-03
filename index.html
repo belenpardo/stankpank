@@ -17,37 +17,65 @@
 </head>
 
 <body>
+  
+    
     <header>
-
-        <nav>
-
-            <ul class="texto">
-                <li>
-                    <img src="./img/logo.png" alt="Logo">
-                </li>
-                <li class="seccioNes">
-                    <a href="index.html">Nosotros</a>
-                </li>
-
-                <li class="seccioNes">
-                    <a href="./secciones/serigrafia.html">Serigrafia</a>
-                </li>
-
-                <li class="seccioNes">
-                    <a href="./secciones/sublimacion.html">Sublimacion</a>
-                </li>
-
-                <li class="seccioNes">
-                    <a href="./secciones/impresion.html">Impresión directa</a>
-                </li>
-
-                <li class="seccioNes">
-                    <a href="./secciones/contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
+    
+    
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">STANPUNK</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="container-fluid">
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <img src="./img/logobarra.png" alt="Logo">
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                
+                   
+                
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">NOSOTROS</a>
+                    </li>
+                   
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        ESTAMPADOS
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                        <li><a class="dropdown-item" href="./secciones/serigrafia.html">Serigrafia</a></li>
+                        <li><a class="dropdown-item" href="./secciones/sublimacion.html">Sublimación</a></li>
+                        <li>
+                        <li><a class="dropdown-item" href="./secciones/impresion.html">Impresion directa</a></li>
+                          <hr class="dropdown-divider">
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./secciones/contacto.html">CONTACTO</a>
+                      </li>
+                  </ul>
+                 
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+          
     
     </header>
+<div class="tamañologo">
+  <img src="./img/STANPUNK (3).png" data-aos="zoom-in" data-aos-duration="3000" alt="STANPUNK">
+</div>
+
     <p>
         <h1 class="tituloNosotros">
         Somos una empresa dedicada a distintas formas de estampados.
@@ -58,7 +86,7 @@ Nuestro objetivo es ayudarte a encontrar cual es el mejor para tu producto y te 
     <section>
 
         <div class="container">
-            <div class="img1"><img src="./img/Serigrafia/serinicio.jpg" alt="" data-aos="fade-right"
+            <div class="img1"><img src="./img/Serigrafia/serinicio.jpg" alt="Serigrafia" data-aos="fade-right"
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"></div>
             <div class="des1" data-aos="fade-left"
@@ -86,7 +114,9 @@ Nuestro objetivo es ayudarte a encontrar cual es el mejor para tu producto y te 
                 Una semana
                 <li> <strong>Costo:</strong> </li>
                 Es una tecnica economica
-            </ul></div>
+            </ul>
+            <a class="btn btn-primary" href="./secciones/serigrafia.html" role="button">Ver más</a>
+        </div>
             <div class="des2" data-aos="fade-right"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine">
@@ -111,7 +141,9 @@ Nuestro objetivo es ayudarte a encontrar cual es el mejor para tu producto y te 
                 30 mins por sublimado
                 <li> <strong>Costo:</strong> </li>
                 Es un tipo de estampado mas costoso ya que se utilizan tintas especiales para llevar a cabo este proceso. Se utiliza maquinaria de alto costo. 
-            </ul></div>
+            </ul>
+            <a class="btn btn-primary" href="./secciones/sublimacion.html" role="button">Ver más</a>
+        </div>
             <div class="img2" data-aos="fade-left"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"><img src="./img/Sublimacion/sublimacioninicio.jpg" alt="sublimacioninicio"></div>
@@ -136,7 +168,10 @@ Nuestro objetivo es ayudarte a encontrar cual es el mejor para tu producto y te 
                 30 mins por impresion + 15 min de fijacion 
                 <li> <strong>Costo:</strong> </li>
                 Es el mas costoso por sus tintas! 
-                </ul> </div>
+                </ul> 
+                <a class="btn btn-primary" href="./secciones/impresion.html" role="button">Ver más</a>
+            </div>
+                
           </div>
 
 
@@ -154,9 +189,9 @@ Nuestro objetivo es ayudarte a encontrar cual es el mejor para tu producto y te 
         <footer>
             <div class="grid-footer">
                 <div class="titulofinal">gracias por elegirnos</div>
-            <a href="https://www.instagram.com/" target="_blank"><img src="../img/instagram.png"  alt="instagram" ></a>
-            <a href="https://web.whatsapp.com/" target="_blank"><img src="../img/whatsaap.png" alt="whatsapp"></a>
-            <a href="https://facebook.com" target="_blank"><img src="../img/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.png"  alt="instagram" ></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><img src="./img/whatsaap.png" alt="whatsapp"></a>
+            <a href="https://facebook.com" target="_blank"><img src="./img/facebook.png" alt="Facebook"></a>
         </footer>
 
 
